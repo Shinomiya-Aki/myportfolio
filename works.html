@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="jp">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Aki Shinomiya Portfolio site</title>
+        <!-- CSS読み込み -->
+        <!-- リセットCSS -->
+        <link rel="stylesheet" href="./assets/css/destyle.css" />
+
+        <!-- Googleフォント -->
+        <link
+            href="https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;700&family=Noto+Sans+JP&display=swap"
+            rel="stylesheet"
+        />
+        <!-- js用CSS -->
+        <link rel="stylesheet" href="./assets/css/slick.css" />
+        <link rel="stylesheet" href="./assets/css/slick-theme.css" />
+        <!-- オリジナルCSS -->
+        <link rel="stylesheet" href="./assets/css/common.css" />
+        <link rel="stylesheet" href="./assets/css/style.css" />
+        <link rel="stylesheet" href="./assets/css/works.css" />
+    </head>
+    <body>
+        <header>
+            <div class="h_container">
+                <div class="h_nav">
+                    <!-- ハンバーガーボタン -->
+                    <div class="h_hamburger">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+
+                <!-- ナビゲーションメニュー -->
+                <nav class="h_menu">
+                    <ul>
+                        <li>
+                            <a href="./index.html">
+                                <img
+                                    src="./assets/img/logo01.png"
+                                    alt="Aki Shinomiyaロゴマーク"
+                                    class="h_menu_logo"
+                                />
+                            </a>
+                        </li>
+                        <li><a href="./about.html">About me</a></li>
+                        <li>
+                            <a href="./skills.html">Skills</a>
+                        </li>
+                        <li>
+                            <a href="#">Works</a>
+                        </li>
+                        <li><a href="index.html#contact_F">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <main>
+            <article class="m_wrap">
+                <h1 class="h1_ttl fadeupttl">Works</h1>
+
+                <!-- 1 -->
+                <section class="works_container flex">
+                    <div class="w_img">
+                        <img
+                            src="./assets/img/works/w_website01.jpg"
+                            alt="ポートフォリオ　モックアップ画像"
+                        />
+                    </div>
+                    <div class="w_name slideinL">
+                        <h3 class="h3_ttl mb20">自分のポートフォリオサイト</h3>
+                        <p>
+                            制作期間：2022年12月～2023年1月<br />(2023年10月改修)
+                        </p>
+                        <p>使用言語等：HTML、CSS、Javascript</p>
+                        <p>使用ライブラリ等：jQuery、slick、ScrollReveal</p>
+                        <p class="mb10">
+                            URL：<a
+                                href="./index.html"
+                                target="_blank"
+                                class="w_link"
+                                >Aki Shinomiya Portfolio</a
+                            >
+                        </p>
+                        <p class="mb10">
+                            職業訓練で制作したポートフォリオサイトを一部改修しました。
+                            <br />
+                            モバイルファーストでコーディングをしています。シンプルなデザインのため、メディアクエリで調整しやすくなっています。また、ポートフォリオとしての情報のわかりやすさがあると考えています。<br />
+                            デザインがシンプルなので、Javascriptによる動きを多めにつけるようにしました。スライドショーに加え、ふわっと浮き出す動きに挑戦しています。
+                        </p>
+                    </div>
+                </section>
+
+                <!-- 2 -->
+                <section class="works_container flex" id="work2">
+                    <div class="w_img">
+                        <img
+                            src="./assets/img/works/w_banner01.jpg"
+                            alt="課題で作ったFacebookヘッダー画像"
+                        />
+                    </div>
+                    <div class="w_name slideinL">
+                        <h3 class="h3_ttl mb20">
+                            【課題】Facebookのヘッダー画像
+                        </h3>
+                        <p>制作期間：2022年10月～2022年11月</p>
+                        <p class="mb10">使用アプリ：Photoshop、Illustrator</p>
+                        <p>
+                            職業訓練校の課題でFacebookカバーを作成しました。
+                            <br />
+                            プログラミングに対する固いイメージを払拭したいと思いデザインを検討しました。<br />
+                            パソコンの画像を入れたかったのですが硬い印象が出てしまうかなと思い、優しくかわいらしい色合いを使って柔らかい雰囲気を目指しました。5色の波型を重ねていますが、これは訓練で学ぶことのできるHTML・CSS・Javascript・PHP・WordPressを示しています。トーンマナーを合わせることで多色使いでもごちゃごちゃしすぎないように気を付けました。
+                        </p>
+                    </div>
+                </section>
+
+                <!-- 3 -->
+                <section class="works_container flex" id="work3">
+                    <div class="w_img">
+                        <img
+                            src="./assets/img/works/w_banner02.jpg"
+                            alt="コンペに出した夏のセールバナー"
+                        />
+                    </div>
+                    <div class="w_name slideinL">
+                        <h3 class="h3_ttl mb20">
+                            【コンペ】夏のセールバナー画像
+                        </h3>
+                        <p>制作期間：2023年7月</p>
+                        <p class="mb10">使用アプリ：Photoshop、Illustrator</p>
+                        <p>
+                            クラウドソーシングでコンペに参加するために制作しました。
+                            <br />
+                            女性向けの商品を多く取り扱う企業だったため、写真は「女性・買い物袋をたくさん持っている・明るい色」で探しました。<br />
+                            ベースカラーは青系との指示だったので、海をイメージした波形や夏の太陽を彷彿とさせる丸型を入れています。<br />
+                            テキストは割引率、セールであること、日付を一目でわかるように大きく配置しました。
+                        </p>
+                    </div>
+                </section>
+            </article>
+        </main>
+
+        <footer>
+            <div class="f_container">
+                <small>Copyright © Aki Shinomiya All Rights Reserved.</small>
+            </div>
+        </footer>
+
+        <!-- jQuery読み込み -->
+        <script src="./assets/js/jquery-3.6.3.min.js"></script>
+        <!-- ScrollReveal -->
+        <script src="https://unpkg.com/scrollreveal"></script>
+        <!-- slick.js -->
+        <script src="./assets/js/slick.min.js"></script>
+        <!-- オリジナルjs -->
+        <script src="./assets/js/script.js"></script>
+    </body>
+</html>
