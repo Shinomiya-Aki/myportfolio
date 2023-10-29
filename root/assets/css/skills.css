@@ -1,0 +1,59 @@
+@charset "UTF-8";
+
+/*****メモ*****/
+/* 共通部分、header、footer、ユーティリティはcommon.cssに記載 */
+/*****メモ*****/
+
+/********************
+    main部分
+********************/
+
+.s_skill {
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.s_name {
+    text-align: left;
+    width: 100%;
+}
+
+.s_name p:not(:last-child) {
+    border-bottom: 1px solid #e6e6e1;
+}
+
+@media screen and (min-width: 768px) {
+    .skills_container {
+        max-width: 75vw;
+        margin: 0 auto 100px;
+    }
+
+    .s_skill {
+        max-width: 75vw;
+        flex-direction: row;
+        align-items: center;
+        margin-bottom: 30px;
+    }
+
+    .s_img {
+        margin-right: 20px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .s_pcCont {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .s_skill {
+        max-width: 45%;
+        align-items: flex-start;
+        margin-right: 20px;
+    }
+
+    .s_img {
+        margin-right: 10px;
+    }
+}

@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+/*****メモ*****/
+/* 共通部分、header、footer、ユーティリティはcommon.cssに記載 */
+/*****メモ*****/
+
+/********************
+    main部分
+********************/
+
+@media screen and (min-width: 768px) {
+    .about_container {
+        flex-direction: row;
+        margin-bottom: 100px;
+    }
+
+    .a_img {
+        width: 45%;
+        aspect-ratio: 1 / 1;
+        margin-bottom: 50px;
+        margin-right: 10px;
+    }
+
+    .a_comment {
+        width: 45%;
+        aspect-ratio: 1 / 1;
+        margin: 0;
+    }
+}

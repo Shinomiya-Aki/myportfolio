@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+/*****メモ*****/
+/* 共通部分、header、footer、ユーティリティはcommon.cssに記載 */
+/*****メモ*****/
+
+/********************
+    main部分
+********************/
+.w_name {
+    width: 100%;
+}
+
+.w_name p {
+    text-align: left;
+}
+
+.w_name p a {
+    color: #13547a;
+    font-weight: 700;
+    transition: all 0.75s;
+    padding: 0 10px;
+}
+
+.w_name p a:hover {
+    background-color: rgba(128, 208, 199, 0.505);
+}
+
+.w_name p:not(:last-child) {
+    border-bottom: 1px solid #e6e6e1;
+}
+
+.w_link {
+    text-align: right;
+}
+
+@media screen and (min-width: 768px) {
+    .works_container {
+        max-width: 75vw;
+        flex-direction: row;
+        margin: 0 auto 100px;
+    }
+    .w_img img {
+        max-width: 30vw;
+        margin-right: 10px;
+    }
+}
