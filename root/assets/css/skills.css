@@ -17,6 +17,7 @@
 .s_name {
     text-align: left;
     width: 100%;
+    border-radius: 10px;
 }
 
 .s_name p:not(:last-child) {
